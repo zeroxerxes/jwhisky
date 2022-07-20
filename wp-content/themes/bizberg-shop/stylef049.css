@@ -1,0 +1,527 @@
+/*
+Theme Name: Bizberg Shop
+Template: bizberg
+Text Domain: bizberg-shop
+Author: Bizberg Themes
+Author URI: https://bizbergthemes.com/
+Theme URI: https://bizbergthemes.com/downloads/bizberg-shop/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Description: Bizberg Shop is the child theme of Bizberg which is highly customizable and beautifully designed WordPress theme built-in with full WooCommerce support. The theme is perfectly integrated with any kinds of e-commerce stores loaded with all the extensive functionality and features. It is fully compatible with WooCommerce and YITH WooCommerce plugins to provide ultimate eCommerce value. Additionally, theme features color options, sidebar layouts, header and footer customization and many more.The theme comes with a comprehensive documentation guide that helps you to build a unique website from the root. It is built-in with a customizer that enables you to configure with live preview. Besides these, it is fully responsive and mobile-friendly that fits well on any types of devices. With the support of one-click demo import plugin, turn your website into a mind-blowing online store.
+Tags: custom-logo,custom-menu,featured-images,threaded-comments,translation-ready,left-sidebar,right-sidebar,grid-layout,theme-options,blog,news,portfolio
+Version: 1.7
+Requires at least: 4.9
+Tested up to: 5.8
+Requires PHP: 5.6
+*/
+
+p {
+    font-size: 15px;
+}
+
+div#respond h3#reply-title {
+    text-transform: capitalize;
+}
+
+.bizberg_default_page .single_page h3.blog-title{
+    text-transform: capitalize;
+}
+
+.footer_social_links{
+    display: block;
+}
+
+.page-template-page-templatehome-php header#masthead{
+    border-bottom: 1px solid #eee!important;
+}
+
+.navbar-default .navbar-nav>li>a{
+    letter-spacing: 0;
+}
+
+.primary_header_center .navbar-default:not(.sticky) .has-no-menu-description .navbar-nav>li>a:not(.menu_custom_btn),
+.page-fullwidth-transparent-header.sidebar.theme-sticky .navbar.sticky.navbar-default .navbar-nav>li>a, 
+.navbar.sticky.navbar-default .navbar-nav>li>a{
+    padding: 14px 20px;
+}
+
+.primary_header_center .navbar-default:not(.sticky) .has-no-menu-description .navbar-nav li ul {
+    top: 60px;
+}
+
+.navbar-default .navbar-nav>li>a:not(.menu_custom_btn){border:none!important; line-height: 2.5!important;}
+
+li.bizberg_shop_browse_cat {
+    width: 260px;
+}
+
+.bizberg_shop_browse_cat a i.fa-bars{
+	font-size: 17px;
+}
+
+.bizberg_shop_browse_cat a i.fa-angle-down{
+	font-size: 15px;
+}
+
+.nav .bizberg_shop_browse_cat > a{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.page-fullwidth-transparent-header.theme-sticky .navbar.sticky, .navbar.sticky{
+    position: relative;
+    top: inherit;
+    box-shadow: none;
+}
+
+nav.navbar.navbar-default.with-slicknav.sticky.animated.slideInDown{animation: none;}
+
+.primary_header_center .sticky:not(.sticky_disable) .bizberg_header_wrapper > a{display: none!important;}
+
+.navbar.sticky .navbar-nav li ul{top: inherit;}
+
+header .navbar-default .navbar-nav > li.bizberg_shop_browse_cat > a,
+.navbar.sticky.navbar-default .navbar-nav>li.bizberg_shop_browse_cat>a,
+header .navbar-default #responsive-menu .navbar-nav > li.bizberg_shop_browse_cat > a:focus,
+.navbar.sticky.navbar-default #responsive-menu .navbar-nav>li.bizberg_shop_browse_cat > a:focus{
+	color: #fff !important;
+}
+
+.navbar-default .navbar-nav>li.bizberg_shop_browse_cat>a:after,
+.navbar.sticky.navbar-default .navbar-nav>li.bizberg_shop_browse_cat>a:after{
+	background: transparent;
+}
+
+.navbar-nav ul.product_cats_menu li, 
+.navbar-nav ul.product_cats_menu,
+.navbar-nav ul.product_cats_menu ul,
+.navbar-nav ul.product_cats_menu ul li {
+    width: 260px;
+}
+
+.navbar-nav .product_cats_menu ul{
+	left: 259px;
+    box-shadow: none;
+}
+
+.navbar-nav .product_cats_menu{box-shadow: none;}
+
+.navbar-nav .product_cats_menu li a{
+    display: block;
+}
+
+.navbar-nav .product_cats_menu li a i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+}
+
+.navbar-nav .product_cats_menu li a {
+	font-size: 13px;
+}
+
+.page-template-home .bizberg_shop_browse_cat.show ul.product_cats_menu {
+    display: block !important;
+}
+
+.primary_header_center .navbar:not(.sticky) .bizberg_shop_browse_cat > a{
+    padding: 14px 8px 14px !important;
+}
+
+.primary_header_center .navbar.sticky .bizberg_shop_browse_cat > a {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+
+
+.page-template-home ul.product_cats_menu::-webkit-scrollbar{
+    width: 5px;
+    background: #0088cc;
+}
+
+.page-template-home ul.product_cats_menu::-webkit-scrollbar-thumb {
+    background: #02486c;
+}
+
+.ecommerce-banner{
+    position: relative;
+    padding: 30px 0;
+}
+
+.ecommerce-banner .slider{height: 400px;}
+
+.ecommerce-banner .slide-image{
+    animation: none;
+}
+
+.ecommerce-banner .swiper-content1{
+    top: 50%;
+    right: 30px;
+    width: 50%;
+    margin: 0;
+    transform: translateY(-50%);
+    text-align: right;
+    position: absolute;
+}
+
+.ecommerce-banner .swiper-content{
+    width: 90%;
+}
+
+.ecommerce-banner .swiper-content2{
+    top: 50%;
+    left: 30px;
+    width: 50%;
+    margin: 0;
+    transform: translateY(-50%);
+    text-align: left;
+    position: absolute;
+}
+
+.swiper-content p, .swiper-content1 p, .swiper-content2 p {
+    font-size: 15px;
+    margin-bottom: 28px;
+    line-height: 25px;
+}
+
+.ecommerce-banner .swiper-content span,
+.ecommerce-banner .swiper-content1 span,
+.ecommerce-banner .swiper-content2 span {
+    font-weight: 700;
+    font-size: 21px;
+    color: #026191;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.bizberg_shop_slider h4 {
+    margin-bottom: 10px;
+}
+
+.bizberg_shop_slider h2 {
+    margin-bottom: 10px;
+}
+
+.btn-primary.woo_slider_button {
+    border-radius: 50px;
+    padding: 14px 30px;
+}
+
+.bizberg_shop_slider .swiper-content.right{
+    text-align: right;
+}
+
+.bizberg_shop_slider .swiper-content.left{
+    text-align: left;
+}
+
+.bizberg_shop_slider p{
+    color: inherit;
+}
+
+@media(max-width: 1100px){
+    li.bizberg_shop_browse_cat{display: none!important;}
+}
+
+@media(max-width: 567px){
+    .swiper-content{
+        width: 85%!important;
+        left: 0;
+        right: 0;
+        top: auto;
+        bottom: 10px;
+        transform: none!important;
+        background: #fff;
+        padding:15px;
+    }
+}
+
+/* services */
+
+.service{padding: 0px 0 30px;}
+
+.service-inner {
+    padding: 30px 30px 25px;
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+    box-shadow: 0 0 15px #cccccc57;
+}
+
+.service-inner .row, .services-item, .discount-action .row{
+    display: flex;
+    align-items: center;
+}
+
+.services-item{
+    border-right: 1px solid #f1f1f1;
+    position: relative;
+}
+
+.col-lg-3:last-child .services-item{border-right: none;}
+
+.services-item i{
+    font-size:28px;
+    color: #2aa4a5;
+    margin-right: 15px;
+}
+
+.services-item h4{color: #2d3439; text-transform: capitalize;}
+
+.services-item p{font-size: 11px; text-transform: capitalize;}
+
+@media(max-width: 991px){
+
+    .service-inner{padding-bottom: 0;}
+
+    .service-inner .row{
+        display: block;
+    }
+
+    .services-item{margin-bottom: 25px; border:none;}
+}
+
+@media(max-width: 639px){
+    .services-item{margin-bottom: 0;}
+    .service-inner{padding-bottom: 25px;}
+}
+
+/* top-categories */
+
+.top-categories{padding: 0 0 50px;}
+
+.top-categories .title{
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 30px;
+}
+
+.top-categories .title h3,
+.tabproduct h3.main_title,
+.bs_repeater_product h3.main_title {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.top-categories .title h3::before,
+.tabproduct h3.main_title::before,
+.bs_repeater_product h3.main_title::before {
+    content: '';
+    background: #0088cc;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+
+.categories-logo{text-align: center;}
+
+.categories-logo img{margin:0 auto!important;}
+
+body .categories-logo h4{margin-top: 10px;font-weight: normal;}
+
+.top-categories .attract-slider .slick-prev, .top-categories .attract-slider .slick-next{
+    top: -60px;
+    transform: none;
+}
+
+.top-categories .attract-slider .slick-prev{
+    right: 60px;
+    left: auto;
+}
+
+.top-categories .attract-slider .slick-next{
+    right: 25px;
+}
+
+.top-categories .attract-slider .slick-prev::before, 
+.top-categories .attract-slider .slick-next::before{
+    font-size: 16px;
+    line-height: 1.9;
+    opacity: .75;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background: #dd3333;
+}
+
+@media(max-width: 991px){
+    .top-categories .attract-slider .slick-prev, .top-categories .attract-slider .slick-next{top: -60px;}
+}
+
+/* banner-listing */
+
+.banner-listing{padding: 0px 0 30px;}
+
+.banner-listing-item{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: block;
+    background-color: #ddd;
+}
+.banner-listing .slick-prev, .banner-listing .slick-next{
+    z-index: 1;
+}
+
+.banner-listing .slick-prev{left: 15px;}
+
+.banner-listing .slick-next{right: 35px;}
+
+.banner-listing .slick-prev::before, .banner-listing .slick-next::before {
+    background: #000;
+    font-size: 21px;
+    padding: 15px 15px;
+    color: #fff;
+    transition: all ease-in-out 0.5s;
+    opacity: 1;
+}
+
+/* tabproduct */
+
+.tabproduct{padding: 0px 0 30px;}
+
+.tabproduct-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.tabproduct-box .nav-tabs,
+.tabproduct-box .nav-tabs>li.active>a, .tabproduct-box .nav-tabs>li.active>a:focus, 
+.tabproduct-box .nav-tabs>li.active>a:hover{
+    border: none;
+}
+
+.tabproduct-box .nav-tabs>li{margin-bottom: 0;}
+
+.tabproduct-box .nav-tabs>li>a{
+    border:none; 
+    border-radius: 0; 
+    line-height: 1.5; 
+    margin:0;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.tabproduct .container .pro-navtab .nav-tabs > li > a:hover,
+.tabproduct .container .pro-navtab .nav-tabs > li > a:focus{
+    background-color: transparent;
+    outline: none;
+}
+
+.tabproduct button.btn.dropdown-toggle{
+    padding: 2px 10px 3px;
+    top: -4px;
+}
+
+.tabproduct button.btn.dropdown-toggle span.fa{
+    font-size: 11px;
+}
+
+@media(min-width: 1025px){
+    .bs_tablet_mobile{display: none;}
+}
+
+@media(max-width: 1024px){
+    .bs_tablet_mobile{display: block;}
+
+    ul.nav.nav-tabs.bs_desktop{display: none;}
+
+    .bs_tablet_mobile .btn-default.active, .bs_tablet_mobile .btn-default:active, 
+    .bs_tablet_mobile .open>.dropdown-toggle.btn-default, .bs_tablet_mobile .btn.btn-default,
+    .bs_tablet_mobile .btn-default.active.focus, .bs_tablet_mobile .btn-default.active:focus, 
+    .bs_tablet_mobile .btn-default.active:hover, 
+    .bs_tablet_mobile .btn-default:active.focus, .bs_tablet_mobile .btn-default:active:focus, 
+    .bs_tablet_mobile .btn-default:active:hover, .bs_tablet_mobile .open>.dropdown-toggle.btn-default.focus, 
+    .bs_tablet_mobile .open>.dropdown-toggle.btn-default:focus, 
+    .bs_tablet_mobile .open>.dropdown-toggle.btn-default:hover{
+        color: #fff!important;
+        background-color: #f5848c!important;
+        border-color: transparent!important;
+        border: 0;
+        box-shadow: none!important;
+        line-height: 1.6;
+        border-radius: 0;
+    }
+
+    .bs_tablet_mobile .dropdown-menu{
+        top: 21px;
+        left: inherit;
+        right: 0;
+        border: none;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .bs_tablet_mobile .dropdown-menu>li>a{
+        padding: 7px 20px;
+        border-bottom: 1px solid #f1f1f1;
+    }
+
+    .bs_tablet_mobile .dropdown-menu>li:last-child>a {
+        border: none;
+    }
+
+    .bs_tablet_mobile .dropdown-menu>.active>a, .bs_tablet_mobile .dropdown-menu>.active>a:focus, 
+    .bs_tablet_mobile .dropdown-menu>.active>a:hover{
+        background: #f5848c;
+    }
+}
+
+/* discount-action */
+
+.discount-action{
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.discount-action::before {
+    content: '';
+    background: #2e3d62;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.call-banner-inner{
+    text-align: left; 
+    padding: 80px 30px 80px;
+}
+
+.call-banner-inner h4, .call-banner-inner h2{color: #fff;}
+
+/* brands */
+.brands{padding:30px 0; background:#fbfbfb;}
+
+.bs_repeater_product {
+    padding-bottom: 30px;
+}
+
+.bs_clients_logo .slick-track{
+    text-align: center;
+    right: 0;
+    margin: 0 auto;
+}
+
+.bs_clients_logo .slick-slide{
+    display: inline-block;
+    float: none;
+}
+
+.bs_repeater_product_wrapper .tabproduct-box h3{
+    position: relative;
+    z-index: 0;
+}
